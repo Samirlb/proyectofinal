@@ -3,7 +3,7 @@ var correo = document.getElementById("correo");
 var password = document.getElementById("contraseña");
 function mostrar(){
     // Abrir archivo JSON
-    fetch('../JSON/usuarios.json')
+    fetch('JSON/usuarios.json')
     // Convetir arichivo JSON en arreglo de JSON
     .then( res => res.json())
     .then(datos => {
