@@ -1,0 +1,14 @@
+[{
+    "nombre": "Evelio",
+    "apellido": "Arrieta",
+    "correo": "earrieta@itsa.edu.co",
+    "contraseña": "admin",
+    "tipo": "Administrador"
+},
+{
+    "nombre": "Jose",
+    "apellido": "Villlarreal",
+    "correo": "jevillarreal@itsa.edu.co",
+    "contraseña": "admin",
+    "tipo": "Desarrollador"
+}]

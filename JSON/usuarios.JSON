@@ -1,0 +1,12 @@
+[
+    {
+        "correo": "selora@itsa.edu.co",
+        "contraseña": "admin",
+        "usuario": "Samir Lora"
+    },
+    {
+        "correo": "bfernandez@itsa.edu.co",
+        "contraseña": "admin",
+        "usuario": "Brayan Fernandez"  
+    }
+]

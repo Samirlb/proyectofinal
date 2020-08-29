@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script src="../js/jquery-1.11.2.min.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <title>Formulario</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="icon" type="image/jpg" href="../img/comidarapida.jpg">
+  <script type="text/javascript" src="../js/prueba.js"></script>
+  <link rel="stylesheet" href="ejemplo/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <body class="bg-light">
+    <div class="bg-danger">
+      <img src="../img/food.png" style="width:40%" class="mx-auto d-block">
+    </div>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <div class="container text-center">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="promociones.html">Promociones</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="Bebidas.html">Bebidas</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="servicios adicionales.html">Servicios Adicionales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="prueba.html">Formulario</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactenos.html">Contactenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Chat.html">Chat</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Iniciar Sesion</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <center>
+      <h1 class=" container jumbotron p-2"> Formulario </h1>
+    </center>
+    <br>
+    <br>
+    <center>
+      <div class="container jumbotron">
+
+        <div class="card border-primary" style="max-width: 40rem;">
+          <div class="card-header"> Formulario </div>
+          <div class="card-body text-primary">
+            <p class="card-text">
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label text-left">Nombre</label>
+              <div class="col-sm-9">
+                <input id="txtnombre" type="text"  class="form-control" placeholder="Digite su nombre">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-sm-3 col- text-left">Apellidos</label>
+              <div class="col-sm-9">
+                <input id="txtapellido" type="text" class="form-control" placeholder="Digite su apellido">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label class="col-sm-3 col- text-left">Edad</label>
+              <div class="col-sm-9">
+                <input id="txtedad" type="number" min="1" class="form-control" placeholder="Digite su edad">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-sm-3 col- text-left">Telefono</label>
+              <div class="col-sm-9">
+                <input id="txttelefono" type="text" class="form-control" placeholder="Digite su telefono">
+              </div>
+            </div>
+            <button type="button" onclick="mostrar()" value="GUARDAR" class="btn btn-outline-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      </div>
+    </center>
+    <center>
+      <table class="table-responsive-lg table-striped">
+        <th>Informacion Personal</th>
+        <tr id="nombre"></tr>
+        <br>
+        <tr id="apellido"></tr>
+        <br>
+        <tr id="edad"></tr>
+        <br>
+        <tr id="Telefono"></tr>
+
+      </table>
+    </center>
+    <br>
+    <br>
+    <center>
+      <table>
+        Para mas informacion se se pueden comunicar con nostros por nuestras redes sociales
+        <tr>
+          <td><img src="../img/facebook.png" alt="" width="30" height="20"></td>
+          <td><a href="https://www.facebook.com/Fash-Food-SC-109747004111012">Fash Food Sc</a></td>
+          <td></td>
+          <td></td>
+          <td><img src="../img/whatsapp.png" alt="" width="30" height="20"></td>
+          <td>3204439229</td>
+          <td></td>
+          <td></td>
+          <td><img src="../img/twitter.png" alt="" width="30" height="20"></td>
+          <td><a href="https://twitter.com/ScFash">@ScFash</a></td>
+
+        </tr>
+      </table>
+    </center>
+  </body>
+
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/jpg" href="../img/comidarapida.jpg">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-1.11.2.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <title>Factura</title>
+
+
+</head>
+
+<body class="bg-light">
+
+    <div class="bg-danger">
+        <img src="../img/food.png" style="width:40%" class="mx-auto d-block">
+    </div>
+    
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container text-center">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="promociones.html">Promociones</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="Bebidas.html">Bebidas</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="servicios adicionales.html">Servicios Adicionales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prueba.html">Formulario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactenos.html">Contactenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Chat.html">Chat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Factura.html">Factura</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Iniciar Sesion</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div class="container jumbotron">
+        <center>
+            <table class="col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-6 table table-responsive-lg bg-danger text-light table-striped">
+                <tr>
+                    <td class="thead" colspan="3">
+                        <center>
+                            <h1>FACTURA</h1>
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b> Nombre:</b> <input class="form-control col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-6" name='nombre' type='text' tabindex='1'
+                            placeholder="Nombre">
+                        <br>
+                        <br>
+                        <b>Apellidos:</b> <input class="form-control col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-6" name='apellidos' type='text' tabindex='2'
+                            placeholder="Digite Apellido">
+                        <br>
+                        <br>
+                        <b> Cedula:</b> <input class="form-control col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-6" type="text" name="identificacion"
+                            placeholder="Cedula">
+                        <br>
+                        <br>
+                        <b> Telefono: </b> <input class="form-control col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-6" type="text" name="telefono"
+                            placeholder="Digite telefono">
+
+                    </td>
+                    <td>
+                        <h4> Nif: 24.878.732E
+                            <br>
+                            <br>
+                            Direccion: calle 83 # 120-85
+                            <br>
+                            <br>
+                            Fecha: <input class="form-control col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-6" type="date" name="fecha">
+                            <br>
+                            <br>
+                            Hora : <input class="form-control col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-6" type="time" name="hora">
+                            <br>
+                            <br>
+                            Vendedor: <select class="form-control col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-6" name="" id="">
+                                <option value="">Carlos Antionio Castro Parra</option>
+                                <option value="">Samir Enrrique Lora </option>
+                            </select>
+                        </h4>
+                        <br>
+                        <br>
+                    </td>
+                </tr>
+                <table class="table table-responsive-lg bg-danger text-light table-striped">
+                    <form>
+                        <tr>
+                            <th>Descripcion</th>
+                            <th>Precio</th>
+                            <th>Unidades</th>
+                        </tr>
+                        <tr>
+                            <td><select class="form-control col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-6 " name="" id="">
+                                    <option value=""> Comidas:</option>
+                                    <option value=""> Salchipapa sencilla</option>
+                                    <option value="">Salvaja familiar</option>
+                                    <option value="">Perro sencillo</option>
+                                    <option value="">Big Perro a la plancha</option>
+                                    <option value="">Pizza mediana - peperoni con queso</option>
+                                    <option value="">Pizza personal - Jamon y queso</option>
+                                    <option value="">Hamburguesa sencilla</option>
+                                    <option value="">Hamburguesa doble</option>
+                                    <option value="">Carne con papas fritas</option>
+                                    <option value="">Pechuga asada con papas fritas y ensalada</option>
+                                </select></td>
+                            <td><input class="form-control col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-6" type="text" size="40"></td>
+                            <td><input class="form-control col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-6" type="number"></td>
+
+                        </tr>
+                        <tr>
+                            <td><select class="form-control col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-6" name="" id="">
+                                    <option value="">Bebidas</option>
+                                    <option value="">Jugos naturales</option>
+                                    <option value="">Gaseosas personales</option>
+                                    <option value="">gaseosas 1.5L</option>
+                                    <option value="">Gaseosas 3L postobon - coca_cola - pepsi</option>
+                                    <option value="">Bebidas Energisantes</option>
+
+                                </select></td>
+                            <td><input class="form-control col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-6" type="text" size="40"></td>
+                            <td><input class="form-control col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-6" type="number"></td>
+
+
+                        <tr>
+                            <th colspan="2">Total</th>
+
+                            <td><input class="form-control col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-6" type="text"></td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Pagó</th>
+                            <td><input class="form-control col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-6" type="text"></td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Cambio</th>
+                            <td colspan="2"><input class="form-control col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-6" type="text"></td>
+                        </tr>
+                        <table class="table table-responsive-lg bg-danger text-light table-striped">
+                            <tr class="text-center">
+
+
+                                <td colspan="3">
+                                    <button class="btn btn-primary" class="text-center"
+                                        type="button">Imprimir</button></a>
+                                </td>
+
+
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+
+                </table>
+        </center>
+    <br>
+    <br>
+</div>
+
+    <center>
+        <table>
+            Para mas informacion se se pueden comunicar con nostros por nuestras redes sociales
+            <tr>
+                <td><img src="../img/facebook.png" alt="" width="30" height="20"></td>
+                <td><a href="https://www.facebook.com/Fash-Food-SC-109747004111012">Fash Food Sc</a></td>
+                <td></td>
+                <td></td>
+                <td><img src="../img/whatsapp.png" alt="" width="30" height="20"></td>
+                <td>3204439229</td>
+                <td></td>
+                <td></td>
+                <td><img src="../img/twitter.png" alt="" width="30" height="20"></td>
+                <td><a href="https://twitter.com/ScFash">@ScFash</a></td>
+
+            </tr>
+        </table>
+    </center>
+
+</body>
+
+</html>
